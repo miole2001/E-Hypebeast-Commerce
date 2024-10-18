@@ -1,5 +1,5 @@
 <?php include('../connection.php');
-$base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/e-hypebeast/';
+$base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/E-Hypebeast-Commerce/';
 
 ?>
 <!DOCTYPE html>

@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
 } else {
     die('User not found.');
 }
-$base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/e-hypebeast/';
+$base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/E-Hypebeast-Commerce/';
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ $base_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/e-hyp
     <nav class="sb-topnav navbar navbar-expand" style="background-color: #3D5E8C">
 
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3 text-white" href="<?= $base_url ?>admin/admin.php">E-HypeBeast</a>
+        <a class="navbar-brand ps-3 text-white" href="<?= $base_url ?>admin/admin.php">E-Hypebeast-Commerce</a>
 
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0 text-white" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>

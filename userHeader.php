@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
 } else {
 	die('User not found.');
 }
-$base_url = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].'/e-hypebeast/';
+$base_url = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].'/E-Hypebeast-Commerce/';
 ?>
 
 <!DOCTYPE html>
