@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+    /* <=====   Style ShortCut   =====>*/
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Inter';
+    }
+    button,a{
+        cursor: pointer;
+    }
+    :is(.balck-list) a{
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    :is(ul){
+        list-style: none;
+    }
+    :is(a){
+        text-decoration: none;
+    }
+    :is(.white-list) a{
+        color: #fff;
+        font-size: 16px;
+    }
+    
+        /* <=====   for login   =====>*/
+
+    h1{
+        font: normal 500 36px/30px 'Inter';
+        padding-bottom: 10px;
+    }
+    .login{
+        /*display: flex;
+        flex-direction: column;
+        justify-content: center;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .login p{
+        padding: 15px 0;
+        font: normal 400 16px/24px 'Poppins';
+    }
+    .login input{
+        margin: 15px 0;
+        padding: 10px 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+    } 
+    .login select{
+        margin: 15px 0;
+        padding: 10px 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+    } 
+    .login button{
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .create{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .create button{
+        background-color: #DB4444;
+        color: #fff;
+        border: none;
+        padding: 15px;
+    }
+    .create button:hover{
+        transform: scale(1.1);
+        letter-spacing: 0.1rem;
+    }
+    .Add_account{
+        margin-top: 15px;
+        text-align: center;
+        color: #000;
+    }
+    .Add_account a{
+        color: #DB4444;
+    }    
+    .container{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
