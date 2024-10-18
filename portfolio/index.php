@@ -1,16 +1,3 @@
-<?php include('connection.php');
-
-$sql = "SELECT * FROM my_info";
-$result = $connection->query($sql);
-
-if ($result->num_rows > 0) {
-    $display = $result->fetch_assoc();
-} else {
-    die('Data not found.');
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,10 +23,10 @@ if ($result->num_rows > 0) {
 
     <div class="main" id="introduction">
         <div class="left">
-            <h5>Hi!, I am <?php echo $display['first_name'] . ' ' . $display['last_name']; ?></h5>
-            <h3>I am a student of <span><?php echo $display['university']; ?></span> <?php echo $display['campus']; ?></h3>
+            <h5>Hi!, I am Ralph A. Miole</h5>
+            <h3>I am a student of <span>Southern Leyte State University</span> - Tomas Oppus Campus</h3>
             <p>
-                Major in <?php echo $display['major']; ?> a <?php echo $display['year_level']; ?> Student.
+                Major in Bachelor of Science in Information Technology a 3rd Year Student.
             </p>
         </div>
         <div class="right">
@@ -55,21 +42,19 @@ if ($result->num_rows > 0) {
         <div class="right">
             <h3>About Me</h3>
             <p>
-            Hi there! I’m <?php echo $display['first_name'] . ' ' . $display['middle_name'] . ' ' . $display['last_name']; ?>, born on <?php echo $display['birth_date']; ?>.
-            I’m <?php echo $display['gender']; ?> and I live in <?php echo $display['address']; ?>.
-            Currently, I’m studying at <?php echo $display['university'] . ' ' . $display['campus']; ?> in the <?php echo $display['course']; ?> program, focusing on <?php echo $display['major']; ?>. 
-            I’m in my <?php echo $display['year_level']; ?> and my student ID is <?php echo $display['student_id']; ?>.
+            Hi there! I’m Ralph A. Miole, born on May 30,2001.
+            I’m Male and I live in Libas, Sogod, Southern Leyte.
+            Currently, I’m studying at Southern Leyte State University - Tomas Oppus Campus in the Bachelor of Science in Information Technology program, focusing on Programming. 
+            I’m in my 3rd year and my student ID is 20-20012.
 
             </p>
             <br><br><br><br>
 
-            <h3>My Social Information</h3>
+            <h3>My Contact Information</h3>
             <br>
-            <h4>Facebook: <?php echo $display['facebook']; ?></h4>
+            <h4>Email : ralphmiole2001@gmail.com</h4>
             <br>
-            <h4>Email : <?php echo $display['email']; ?></h4>
-            <br>
-            <h4>Contact Number: <?php echo $display['number']; ?></h4>
+            <h4>Contact Number: 09603063097</h4>
         </div>
     </div>
 
