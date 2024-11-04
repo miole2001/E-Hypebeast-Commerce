@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
         <div class="card mb-4"  style="background-color: #9BB7D4">
             <div class="card-body text-center">
                 <h3 class="text-black">SNEAKER</h3>
-				<img src="<?= $base_url?>images/image/shoes.gif" alt="shoes" style="width:300px; height: 200px;">
+				<img src="<?= $base_url?>images/product-image/shoes.gif" alt="shoes" style="width:300px; height: 200px;">
 
             </div>
             <div class="card-footer d-flex align-items-center justify-content-between" style="background-color: #3D5E8C">
