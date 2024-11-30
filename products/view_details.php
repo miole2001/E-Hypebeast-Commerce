@@ -170,15 +170,15 @@ if ($result->num_rows > 0) {
                     <i class="fas fa-star star-light submit_star mr-1" id="submit_star_5" data-rating="5"></i>
 	        	</h4>
                 <div class="form-group">
-                    <label for="">Your Name:</label>
+                    <label for="user_name">Your Name:</label>
 	        		<input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter Your Name" />
 	        	</div>
 	        	<div class="form-group">
-                    <label for="">Your Name:</label>
-	        		<input type="text" name="product" id="product" class="form-control" value="<?php echo $product['item_name']; ?>" />
+                    <label for="product">Product Name:</label>
+	        		<input type="text" name="product" id="product" class="form-control" value="<?php echo $product['item_name']; ?>" readonly>
 	        	</div>
 	        	<div class="form-group">
-                    <label for="">Comment:</label>
+                    <label for="user_review">Comment:</label>
 	        		<textarea name="user_review" id="user_review" class="form-control" placeholder="Type Review Here"></textarea>
 	        	</div>
 	        	<div class="form-group text-center mt-4">

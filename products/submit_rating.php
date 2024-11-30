@@ -4,7 +4,7 @@
 
 //$connect = new PDO("mysql:host=localhost;dbname=shop1", "root", "");
 
-$connect = new PDO("mysql:host=sql12.freesqldatabase.com;dbname=sql12737109", "sql12737109", "M4bCTjPWPI");
+$connect = new PDO("mysql:host=sql12.freesqldatabase.com;dbname=sql12747456", "sql12747456", "Tm385GCQh4");
 
 if(isset($_POST["rating_data"]))
 {
